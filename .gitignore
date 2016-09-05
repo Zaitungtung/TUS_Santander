@@ -32,3 +32,8 @@ Thumbs.db
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 build/
+
+app/proguard-rules.pro
+app/google-services.json
+app/src/main/res/values/google_maps_api.xml
+app/src/main/res/values/secrets.xml
