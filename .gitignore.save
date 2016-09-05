@@ -34,7 +34,7 @@ captures/
 
 # Intellij
 *.iml
-.idea/
+.idea/workspace.xml
 
 # Keystore files
 *.jks
@@ -44,12 +44,3 @@ app/google-services.json
 app/src/main/res/values/google_maps_api.xml
 app/src/main/res/values/secrets.xml
 app/src/main/res/xml/app_tracker.xml
-searchview/proguard-rules.pro
-colorpicker/build.gradle
-searchview/build.gradle
-build.gradle
-gradle.properties
-gradle/*
-gradlew
-gradlew.bat
-settings.gradle
