@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Accept">Aceptar</string>
+    <string name="Negative">Cancelar</string>
+    <string name="color_picker_default_title">Elige un color</string>
+    <string name="nameHint">Nombre personal (opcional)</string>
+</resources>

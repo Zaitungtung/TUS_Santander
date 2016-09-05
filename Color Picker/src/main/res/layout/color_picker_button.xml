@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+	android:orientation="horizontal"
+	android:gravity="end"
+	android:layout_gravity="end" >
+
+	<Button
+		android:id="@+id/button_cancel_d"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/Negative"
+		android:layout_toStartOf="@+id/button_confirm_d"
+		android:layout_toLeftOf="@+id/button_confirm_d"
+		android:textColor="#868788"
+		android:padding="8dp"
+		style="@style/Widget.AppCompat.Button.Borderless" />
+
+
+	<Button
+		android:id="@+id/button_confirm_d"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/Accept"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:textColor="#868788"
+		android:padding="8dp"
+		style="@style/Widget.AppCompat.Button.Borderless" />
+
+</RelativeLayout>

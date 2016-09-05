@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.alce.tus.R;
 import com.alce.tus.Types.Item;
 import com.alce.tus.Types.SearchResponse;
 import com.google.gson.Gson;
@@ -43,6 +44,7 @@ public class Json {
         URL[] url = new URL[4];
         JSONArray jsonArray = null;
 
+        String bikes_api_key = mContext.getString(R.string.bikes_api_key);
         String DB_DATA = "info.db";
         DatabaseManager databaseManager = new DatabaseManager(mContext, db, DB_DATA);
 
@@ -51,7 +53,7 @@ public class Json {
                 url[0] = new URL("http://datos.santander.es/api/rest/datasets/lineas_bus.json?data=dc:identifier,ayto:numero,dc:name");
                 url[1] = new URL("http://datos.santander.es/api/rest/datasets/lineas_bus_secuencia.json?items=5000&data=ayto:PuntoKM,ayto:Seccion,ayto:Linea,ayto:Ruta,ayto:NParada,ayto:NombreSublinea,ayto:NombreParada");
                 url[2] = new URL("http://datos.santander.es/api/rest/datasets/paradas_bus.json?items=5000&data=ayto:numero,ayto:parada,wgs84_pos:lat,wgs84_pos:long");
-                url[3] = new URL("https://api.jcdecaux.com/vls/v1/stations?contract=Santander&apiKey=7d1208434834eb568ebf7a2b2d9785edc422e588");
+                url[3] = new URL("https://api.jcdecaux.com/vls/v1/stations?contract=Santander&apiKey=" + bikes_api_key);
 
                 URLConnection urlConnection = url[p].openConnection();
                 InputStream in = new BufferedInputStream(urlConnection.getInputStream());

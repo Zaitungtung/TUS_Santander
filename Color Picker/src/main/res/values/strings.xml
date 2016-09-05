@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="color_swatch_description" translatable="false">Color %1$d</string>
+    <string name="color_swatch_description_selected" translatable="false">Color %1$d selected</string>
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="Accept">Aceptar</string>
+    <string name="Negative">Cancelar</string>
+    <string name="nameHint">Nombre personal (opcional)</string>
+</resources>
