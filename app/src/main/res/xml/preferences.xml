@@ -1,0 +1,40 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/preferences_aparience">
+
+        <SwitchPreference
+            android:key="styleSwitch"
+            android:title="@string/preferences_style_title"
+            android:summary="@string/preferences_style_subtitle" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preferences_data">
+
+        <Preference
+            android:key="dataButton"
+            android:layout="@layout/settings_data" />
+
+        <Preference
+            android:key="transportButton"
+            android:layout="@layout/settings_transport" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preferences_info">
+
+        <Preference
+            android:key="reportButton"
+            android:layout="@layout/settings_report" />
+
+        <Preference
+            android:key="comunityButton"
+            android:layout="@layout/settings_community" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

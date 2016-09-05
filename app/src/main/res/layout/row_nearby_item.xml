@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearNearby"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?selectableItemBackground" >
+
+    <TextView
+        android:id="@+id/nearbyName"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_margin="@dimen/margin" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_margin="@dimen/margin"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:textColor="@color/color_tab_4_Dark"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>

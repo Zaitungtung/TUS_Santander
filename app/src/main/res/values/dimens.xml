@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin">15dp</dimen>
+    <dimen name="moreMargin">25dp</dimen>
+    <dimen name="profilePicture">50dp</dimen>
+    <dimen name="typeView">40dp</dimen>
+    <dimen name="marginMid">7dp</dimen>
+    <dimen name="lessMargin">5dp</dimen>
+
+    <dimen name="item_recyclerSize">16sp</dimen>
+
+    <dimen name="number_line">60dp</dimen>
+    <dimen name="widthTime">115dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">T.U.S Santander</string>
+    <string name="action_distance">Distancia</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="exit">Salir</string>
+    <string name="error">Algo no ha ido como deberia</string>
+    <string name="sign_in">Puedes iniciar sesión con tu cuenta de Google para guardar y sincronizar tus datos</string>
+    <string name="sign_in_process">Iniciando sesión</string>
+    <string name="showMe">Enseñamelo</string>
+    <string name="skip">Saltar</string>
+    <string name="action_streetView" translatable="false">Street View</string>
+    <string name="action_search">Buscar</string>
+    <string name="bus">Autobuses</string>
+    <string name="tab1">Inicio</string>
+    <string name="tab2">Lineas</string>
+    <string name="tab3">Bicicletas</string>
+    <string name="tab4" translatable="false">Nearby</string>
+    <string name="stands" >Sitios libres</string>
+    <string name="urbano" >Urbano</string>
+    <string name="especial">Especial</string>
+    <string name="nocturno">Nocturno</string>
+    <string name="intro_page1">Lo primero es lo primero.\nNecesito permiso para almacenar información en tu dispositivo.</string>
+    <string name="intro_page2">Si quieres que te muestre las paradas cercanas,tienes que permitir que acceda a tu ubicación.</string>
+    <string name="intro_page3">Ahora que ya esta todo voy a comenzar a descargar toda la información.\nTe avisaré cuando haya terminado.</string>
+    <string name="nearbyPermission">Si quieres ver las paradas cercanas, permiteme acceder a tu ubicación.</string>
+    <string name="intro_front_description">Cambio de estación</string>
+    <string name="allow">Permitir</string>
+    <string name="rejectStorage">Este permiso es imprescindible para que la aplicación funcione.</string>
+    <string name="updatedDatabase">Actualizando la base de datos.</string>
+    <string name="download">Descargar</string>
+    <string name="notifyBig">Descargando información</string>
+    <string name="notifyLittle">Descarga en progreso</string>
+    <string name="notifyBigComplete">Descarga completa</string>
+    <string name="notifyLittleComplete">Toda la información descargada</string>
+    <string name="preferences_report_title">Reportar error</string>
+    <string name="preferences_report_subtitle">Cualquier tipo de idea, sugerencia, queja y en general todo lo que se os ocurra será bienvenido.</string>
+    <string name="preferences_data_title">Reconstruir base de datos</string>
+    <string name="preferences_data_subtitle">Si hay algun problema con la información prueba a volver a descargarla.</string>
+    <string name="preferences_community_title">Hacerse Beta Tester</string>
+    <string name="preferences_community_subtitle">Si quieres recibir las actualizaciones beta ¡te estoy esperando!</string>
+    <string name="preferences_style_title">Esquema de colores</string>
+    <string name="preferences_style_subtitle">Activar o desactivar el esquema de colores</string>
+    <string name="preferences_transport_title">Transporte</string>
+    <string name="preferences_transport_subtitle">Selecciona al menos un transporte para mostrar en la barra de navegación</string>
+    <string name="send_email">Enviar email</string>
+    <string name="noEmail_client">No hay ningun cliente de correo instalado.</string>
+    <string name="noStreetView_client">Street View no está instalado</string>
+    <string name="search_hint">Nombre o número de parada</string>
+    <string name="emptyFavs" tools:ignore="Typos">En este momento no tienes ninguna parada en favoritos.</string>
+    <string name="emptyNearby" tools:ignore="Typos">En este momento no hay ninguna parada cercana.</string>
+    <string name="emptyDistance" tools:ignore="Typos">En este momento no hay ninguna parada a la distancia que has seleccionado.</string>
+    <string name="emptyTime" tools:ignore="Typos">En este momento no hay información en esta parada.</string>
+    <string name="nearbyStops">Paradas Cercanas</string>
+    <string name="favStops">Paradas Favoritas</string>
+    <string name="minute">minuto</string>
+    <string name="meter">metro</string>
+    <string name="m" translatable="false">m.</string>
+    <string name="Km" translatable="false">Km.</string>
+    <string name="addedFav">Añadido a favoritos</string>
+    <string name="undo">Deshacer</string>
+    <string name="welcome">Bienvenido</string>
+
+    <!-- Images content Description -->
+    <string name="content_mainPicture">Horario de Verano</string>
+    <string name="content_success">Permitido</string>
+    <string name="content_fail">Denegado</string>
+
+    <!-- Bikes -->
+    <string name="bikes">Estaciones de Bicicletas</string>
+
+    <!-- Favs -->
+    <string name="newFav">Añadir a Favoritos</string>
+    <string name="editFav">Editar favorito</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="cancel">CANCELAR</string>
+
+    <!-- Action Bar -->
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+
+    <!-- Settings -->
+    <string name="emptyTransport">Tienes que escoger al menos un transporte</string>
+    <string name="transportTitle">Selecciona un transporte</string>
+    <string name="preferences_aparience">Estilo</string>
+    <string name="preferences_data">Datos</string>
+    <string name="preferences_info">Información</string>
+
+    <!-- Error -->
+    <string name="loadError">
+        Ha habido un error al cargar la información. Si el problema persiste prueba a reconstruir la base de datos desde Ajustes.
+    </string>
+    <string name="connectionError">
+        Parece que no tienes conexión a Internet. Conectate y vuelve a intentarlo
+    </string>
+
+    <!-- Updates -->
+    <string name="updateBikes" tools:ignore="Typos">Se ha añadido la información referente a "TUS Bic".\nPuedes ocultarlo en cualquier momento desde Ajustes</string>
+    <string name="updateSeason_Winter">
+        El final del verano, llegó.\n Y con él también llega el horario de invierno.
+    </string>
+
+</resources>

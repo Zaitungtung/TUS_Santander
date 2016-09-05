@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?selectableItemBackground"
+    android:paddingStart="@dimen/margin"
+    android:paddingLeft="@dimen/margin"
+    android:paddingEnd="@dimen/margin"
+    android:paddingRight="@dimen/margin"
+    android:padding="8dp" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/typeView"
+        android:layout_width="@dimen/typeView"
+        android:layout_height="@dimen/typeView"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/customName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="20dp"
+            android:layout_gravity="start|center"
+            android:gravity="start|center"
+            android:textColor="@android:color/black"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin"
+            android:paddingStart="@dimen/margin"
+            android:paddingEnd="@dimen/margin"
+            android:layout_marginBottom="5dp"
+            android:textSize="@dimen/item_recyclerSize"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin"
+            android:paddingStart="@dimen/margin"
+            android:paddingEnd="@dimen/margin"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>

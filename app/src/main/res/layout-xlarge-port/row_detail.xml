@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/marginMid"
+    android:layout_marginBottom="@dimen/marginMid" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/margin"
+            android:paddingBottom="@dimen/lessMargin"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:maxLines="1"
+            android:textSize="@dimen/item_recyclerSize"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/gray_night"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginStart="200dp"
+            android:layout_below="@+id/name"
+            android:theme="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            tools:ignore="PxUsage" />
+
+        <RelativeLayout
+            android:id="@+id/block1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tiempo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:minWidth="@dimen/widthTime"
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/marginMid"
+                android:layout_marginRight="@dimen/marginMid"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:textSize="@dimen/item_recyclerSize" />
+
+            <TextView
+                android:id="@+id/distancia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:gravity="center"
+                android:minWidth="@dimen/widthTime"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:layout_toEndOf="@+id/tiempo1"
+                android:layout_toRightOf="@+id/tiempo1"
+                android:textSize="@dimen/item_recyclerSize"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/block2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/block1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tiempo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:minWidth="@dimen/widthTime"
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/marginMid"
+                android:layout_marginRight="@dimen/marginMid"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:textSize="@dimen/item_recyclerSize"/>
+
+            <TextView
+                android:id="@+id/distancia2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:minWidth="@dimen/widthTime"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:layout_toEndOf="@+id/tiempo2"
+                android:layout_toRightOf="@+id/tiempo2"
+                android:textSize="@dimen/item_recyclerSize"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity">
+
+    <item
+        android:id="@+id/action_distance"
+        android:icon="@drawable/ic_distance"
+        android:orderInCategory="1"
+        android:title="@string/action_distance"
+        app:showAsAction="always" />
+
+</menu>
