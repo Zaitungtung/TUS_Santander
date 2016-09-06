@@ -48,7 +48,7 @@ public class FavsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private View selectedItem;
 
     private boolean isActionMode;
-    private ActionMode actionMode;
+    public static ActionMode actionMode;
     private final ActionMode.Callback mActionModeCallback = new ActionMode.Callback() {
 
         @Override

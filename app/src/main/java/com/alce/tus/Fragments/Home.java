@@ -90,7 +90,6 @@ public class Home extends Fragment {
         super.onPause();
         if (database != null && childEventListener != null)
             database.removeEventListener(childEventListener);
-
     }
 
     private void getFavs(final String userId) {

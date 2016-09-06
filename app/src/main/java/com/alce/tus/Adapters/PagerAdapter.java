@@ -20,13 +20,10 @@ import java.util.ArrayList;
 public class PagerAdapter extends FragmentPagerAdapter {
 
     private final ArrayList<Fragment> fragments = new ArrayList<>();
-    private final Context mContext;
     private Fragment currentFragment;
 
     public PagerAdapter(FragmentManager fm, Context mContext) {
         super(fm);
-        this.mContext = mContext;
-
         fragments.clear();
 
         SharedPreferences prefs = mContext.getSharedPreferences("preferences", Context.MODE_PRIVATE);
@@ -59,6 +56,9 @@ public class PagerAdapter extends FragmentPagerAdapter {
             currentFragment = ((Fragment) object);
         }
         super.setPrimaryItem(container, position, object);
+
+        if(FavsAdapter.actionMode!=null)
+            FavsAdapter.actionMode.finish();
     }
 
     /**
